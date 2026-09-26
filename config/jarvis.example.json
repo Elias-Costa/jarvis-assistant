@@ -1,0 +1,39 @@
+{
+  "assistant_name": "Jarvis",
+  "brain_provider": "auto",
+  "voice_enabled": true,
+  "stt_provider": "auto",
+  "speech_culture": "pt-BR",
+  "voice_rate": 1,
+  "voice_volume": 100,
+  "openai_model": "gpt-5.4-mini",
+  "openai_reasoning_effort": "medium",
+  "openai_transcription_model": "gpt-4o-transcribe",
+  "microphone_device": null,
+  "microphone_record_seconds": 6,
+  "microphone_sample_rate": 16000,
+  "sites": {
+    "google": "https://www.google.com",
+    "youtube": "https://www.youtube.com",
+    "gmail": "https://mail.google.com",
+    "github": "https://github.com",
+    "whatsapp": "https://web.whatsapp.com",
+    "chatgpt": "https://chatgpt.com"
+  },
+  "folders": {
+    "downloads": "~/Downloads",
+    "documentos": "~/Documents",
+    "desktop": "~/Desktop"
+  },
+  "apps": {
+    "bloco de notas": {
+      "command": ["notepad.exe"]
+    },
+    "calculadora": {
+      "command": ["calc.exe"]
+    },
+    "explorador": {
+      "command": ["explorer.exe"]
+    }
+  }
+}
